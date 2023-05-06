@@ -9,3 +9,4 @@
 9.  There would be an error because i would not be defined, since the let keyword only allows it to be defined inside of the for loop.
 10.  3 is outputted. Length was assigned to be prices.length, which is 3, and there weren't any attempts to reassign it after that.
 11.  The array of discounted prices is outputted. This is because, although the array cannot be reassigned, elements can still be added if there is a const keyword.
+12.  Name property: `student.name`, Grad Year: `student['Grad Year']`
