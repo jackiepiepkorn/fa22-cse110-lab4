@@ -17,7 +17,6 @@
   E. `student.courseLoad[0]`
 
 13.
-  
   A. '3' + 2 outputs the string '32'. This is because the + operator is used for concatenating strings, so the number 2 is made into a string and concatenated with the string '3'.
   
   B. '3' - 2 outputs the number 1. This is because the - operator is used for subtraction, so the string '3' is changed into the number 3 and subtracted with the number 2.
