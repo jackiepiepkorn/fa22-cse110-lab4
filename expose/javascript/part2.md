@@ -45,3 +45,5 @@ D. 2 === '2' will output false. This is because the === operator performs strict
 E. true == 2 will output false. This is because the == operator performs type coercion, so true is coerced into the number 1, and 1 is not equal to 2.
 
 F. true === Boolean(2) will output true. This is because the === operator performs strict equality comparison, and the two operands are of the same type (boolean). Boolean(2) returns true, so the two operands are equal.
+
+15. The == compares by making sure both sides are converted to a common type and then compares equality. === consideres their original types, so if both sides aren't the same type, they can't be equal even if they're "equal"
