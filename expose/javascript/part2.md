@@ -32,3 +32,16 @@
   G. '3' + undefined will output the string '3undefined'. This is because undefined becomes the string 'undefined' when used in a string concatenation operation, so '3' + 'undefined' is equal to '3undefined'.
   
   H. '3' - undefined will output the special value NaN (Not a Number). This is because undefined is the special value NaN when used in a mathematical operation, and the result of any operation involving NaN is also NaN.
+
+14.
+A. '2' > 1 will output true. This is because the string '2' becomes the number 2, and 2 is greater than 1.
+
+B. '2' < '12' will output true. This is because the two strings are compared lexicographically, and since the first character of '2' is less than the first character of '12', the comparison returns true.
+
+C. 2 == '2' will output true. This is because the == operator performs type coercion, so the string '2' is coerced into the number 2, and 2 is equal to 2.
+
+D. 2 === '2' will output false. This is because the === operator performs strict equality comparison, and the two operands are of different types (number and string), so the comparison returns false.
+
+E. true == 2 will output false. This is because the == operator performs type coercion, so true is coerced into the number 1, and 1 is not equal to 2.
+
+F. true === Boolean(2) will output true. This is because the === operator performs strict equality comparison, and the two operands are of the same type (boolean). Boolean(2) returns true, so the two operands are equal.
