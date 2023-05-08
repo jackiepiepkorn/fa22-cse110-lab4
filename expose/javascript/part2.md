@@ -50,3 +50,5 @@ F. true === Boolean(2) will output true. This is because the === operator perfor
 15. The == compares by making sure both sides are converted to a common type and then compares equality. === consideres their original types, so if both sides aren't the same type, they can't be equal even if they're "equal"
 
 #17. The result is [2, 4, 6]. The array [1, 2, 3] is passed as the first parameter to the modifyArray function and the function doSomething is the second parameter. The modifyArray function creates an empty array newArray and a for loop iterates through each element in the original array, starting with array[0], then array[1], etc. Inside the loop, the callback function doSomething is called with the current element as its argument, so doSomething(1) is called first, then doSomething(2), and doSomething(3). The modified value that doSomething returns for each element is pushed onto the newArray. After all the elements have been iterated through, newArray is returned with the modified values [2, 4, 6].
+
+18. 1 4 3 2
